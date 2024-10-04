@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffe6b3; /* Light orange background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff4e0; /* Soft wood-orange for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    width: 320px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e59400; /* Vibrant yellow-orange for the heading */
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ffad33; /* Slightly darker border */
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    background-color: #fffbe6; /* Softer background for input */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #e59400; /* Yellow-orange for the button */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc8500; /* Darker shade for hover effect */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ffad33; /* Wood-orange border for the tasks */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #fff1cc; /* Light orange for task background */
+    transition: background-color 0.3s ease;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #ffd699; /* Subtle highlight for completed tasks */
+}
+
+button.delete {
+    background-color: #ff704d; /* Bright orange-red for delete button */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+button.delete:hover {
+    background-color: #e65c3b; /* Darker red for hover on delete button */
+}
